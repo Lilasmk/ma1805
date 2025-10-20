@@ -17,7 +17,7 @@ function setup() {
 function draw() {
   let mySize = 50;
   background(220,0,100)
-  //circle(50,50 50)
+  //circle(100,300 50)
   circle(house, 50, 35);
   console,log(house)
   house = house+1
