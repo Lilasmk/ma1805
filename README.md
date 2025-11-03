@@ -2,7 +2,7 @@
 
 https://github.com/Lilasmk/ma1800-coding 
 
-[01.drawing](01.Drawing/index.html)
+[01.drawing](01.drawing/index.html)
 // My emoji reflect multiple aspect of our personality traits, as the two eye triangles can reflect a deep perception, as it display awerness, knowledge and insight.This could imply a perceiption that cuts through illusion.Addiononally it withhall an analytical clarity between the mind and the spirit of the person.The straight line as the mouth, neither smiling or sad, reflect a equilibrium in the emotion, where there is balance and stability.The combination of them display a calm , detched mind that is subconsciouss of it serounding .
 
 [02.movement](02.movement/index.html)
