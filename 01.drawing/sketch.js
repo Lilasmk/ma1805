@@ -1,25 +1,18 @@
-let house = 33;
+let moving_size=50;
+let static_size=20;
 
 
 function setup() {
-let mywith = 640;
   createCanvas(400, 400);
-  background(230);
-  let person = 55;
-}
+  background(240);
+  noLoop();}
 
 function draw() {
-  
-  background(220);
-  //cirlce(50,50 50)
-  fill(0);
-  rect(0,0,100,100);
-  fill(64);
-  rect(50,50,100,100);
-  fill(128)
-  rect(150,150,200,200);
-  fill(220);
-  rect(300,300,400,400);
-
+  strokeWeight(2);
+  stroke(66,150,199)
+  fill(235,199,237);
+  triangle(120,100,100,140,140,140);
+  triangle(220,100,200,140,240,140);
+  rect(147,234,60,4)
 }
-
+  

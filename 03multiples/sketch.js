@@ -1,30 +1,27 @@
-let rgb=[255,0,0];
-let words=["what","are","array"]
-
-let select=0;
+ 
+let row = 20;    
+let col = 20;    
+let pad = 5;       
+let sWidth, sHeight;  
+let rgba = [100, 47, 500, 30]; 
+let select= 0;
+let size= 50; 
 
 function setup() {
-  createCanvas(400, 400);
-}
+    createCanvas(1000,500);
+    sWidth = (width/col)-(pad*(pad/col));
+    sHeight = (height/row)-(pad*(pad/row));
+    rectMode(20,60);
+    noStroke(1);}
 
-function draw() {
-  background(220);
- if(select==0){rgb=[255,0,0]
- }else{rgb=[0,255,0]
-}
-fill(rgb)
-leti=1;
-while(i,400){
-  letr=random(50);
-  circle(i,r+r300,r);
-  i++;
-}
-textSize(30);
-text(select,50,50);
-text(world[3],100,100)
-console.log(worlds)}
-function mouseClicked(){
-  if(select==0){
-    select=1;
-  }
-}
+function draw(){
+  background(1000); 
+for(let i=0; i<row; i++){
+    for(let ii=0; ii<col; ii++){
+      let x = pad+(ii*sWidth)+(pad*ii)+(sWidth/2);
+      let y = pad+(i*sHeight)+(pad*i)+(sHeight/2);
+      fill(rgba); 
+      rect(x, y, sWidth, sHeight); } }
+    circle(300,200,500)   
+    triangle(50,70,100,600,300,50)
+    rect(700,60,800,50,10,200)}
